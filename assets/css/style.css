@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  color: #f9f975;
+  padding: 2em;
+  margin: 0;
+  height: 30%;
+  font-size: x-large;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 30%,
+      rgba(2, 0, 36, 0) 50%,
+      rgba(2, 0, 36, 1) 72%
+    ),
+    url("../img/header.jpg");
+  border-bottom: 2px solid red;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-blend-mode: normal;
+}
+
+main {
+  padding: 2em;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.img-oferton {
+  height: 10em;
+}
+
+.oferta {
+  margin: 5em auto;
+  width: 100%;
+  display: flex;
+}
+
+.foto-oferta {
+  width: 40%;
+  padding: 1em;
+}
+.foto-oferta img {
+  width: 100%;
+}
+
+.descripcion-oferta {
+  text-align: justify;
+  width: 60%;
+  padding: 1em;
+}
+
+footer {
+  background-color: rgb(7, 4, 80);
+  padding: 1em;
+  border-top: 2px solid red;
+}
+
+footer a {
+  color: #f9f975;
+}
